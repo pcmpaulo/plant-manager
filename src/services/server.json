@@ -1,0 +1,112 @@
+{
+    "plants_water_frequencies": [
+        {"key": "day", "title": "Todos os dias"},
+        {"key": "week", "title": "A cada semana"}
+    ],
+
+    "plants_enviroments": [
+        {"key": "living_room", "title": "Sala"},
+        {"key": "bedroom", "title": "Quarto"},
+        {"key": "kitchen", "title": "Cozinha"},
+        {"key": "bathroom", "title": "Banheiro"}
+    ],
+
+    "plants": [
+        {
+            "id": 1,
+            "name": "Aningarapa",
+            "about": "É uma espécie que tem crescimento rapido e fácil",
+            "water_tips": "Mantenha a terra sempre úmida",
+            "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/1.svg",
+            "enviroments": ["living_room", "kitchen"],
+            "frequency": {
+                "times": 2,
+                "repeat_every": "week"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Zamioculca",
+            "about": "Apesar de florescer na primavera, fica o ano todo bonita",
+            "water_tips": "Utilize vasos com furos e pedras no fundo",
+            "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/2.svg",
+            "enviroments": ["living_room", "bedroom"],
+            "frequency": {
+                "times": 1,
+                "repeat_every": "day"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Peperomia",
+            "about": "É umaespécie que tem crescimento rapido e fácil",
+            "water_tips": "Mantenha a terra sempre úmida",
+            "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/3.svg",
+            "enviroments": ["living_room", "kitchen"],
+            "frequency": {
+                "times": 2,
+                "repeat_every": "week"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Imbé",
+            "about": "É umaespécie que tem crescimento rapido e fácil",
+            "water_tips": "Mantenha a terra sempre úmida",
+            "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/4.svg",
+            "enviroments": ["living_room", "kitchen"],
+            "frequency": {
+                "times": 2,
+                "repeat_every": "week"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Espada de são jorge",
+            "about": "É umaespécie que tem crescimento rapido e fácil",
+            "water_tips": "Mantenha a terra sempre úmida",
+            "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/5.svg",
+            "enviroments": ["living_room", "kitchen"],
+            "frequency": {
+                "times": 2,
+                "repeat_every": "week"
+            }
+        },
+        {
+            "id": 6,
+            "name": "6",
+            "about": "É umaespécie que tem crescimento rapido e fácil",
+            "water_tips": "Mantenha a terra sempre úmida",
+            "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/6.svg",
+            "enviroments": ["living_room", "kitchen"],
+            "frequency": {
+                "times": 2,
+                "repeat_every": "week"
+            }
+        },
+        {
+            "id": 7,
+            "name": "7",
+            "about": "É umaespécie que tem crescimento rapido e fácil",
+            "water_tips": "Mantenha a terra sempre úmida",
+            "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/7.svg",
+            "enviroments": ["living_room", "kitchen"],
+            "frequency": {
+                "times": 2,
+                "repeat_every": "week"
+            }
+        },
+        {
+            "id": 8,
+            "name": "8",
+            "about": "É umaespécie que tem crescimento rapido e fácil",
+            "water_tips": "Mantenha a terra sempre úmida",
+            "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/8.svg",
+            "enviroments": ["living_room", "kitchen"],
+            "frequency": {
+                "times": 2,
+                "repeat_every": "week"
+            }
+        }
+    ]
+}

@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, Text, TextInput, KeyboardAvoidingView, TouchableWithoutFeedback, Platform, Keyboard } from 'react-native';
+import { StyleSheet, View, Text, TextInput, KeyboardAvoidingView, TouchableWithoutFeedback, Platform, Keyboard, Alert } from 'react-native';
 import { useNavigation } from '@react-navigation/core';
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 import { Feather } from '@expo/vector-icons';
 
-import colors from '../../styles/colors';
-import fonts from '../../styles/fonts';
-import Button from '../../components/button/Button';
+import colors from '../styles/colors';
+import fonts from '../styles/fonts';
+import Button from '../components/Button';
 
 export function UserIdentification (){
     const [isFocused, setIsFocused] = useState(false);
@@ -15,7 +16,12 @@ export function UserIdentification (){
 
     const navigation = useNavigation();
 
-    function handleSubmitButton() {
+    async function handleSubmitButton() {
+        if (!name) {
+            return Alert.alert('É necessário escolher um nome')
+        }
+        await AsyncStorage.setItem('@plantmanager:profileName', name);
+
         navigation.navigate('Confirmation');   
     }
 

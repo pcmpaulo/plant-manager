@@ -3,16 +3,16 @@ import { StyleSheet, View, Text, TextInput, KeyboardAvoidingView, Platform } fro
 
 import { Feather } from '@expo/vector-icons';
 
-import colors from '../../styles/colors';
-import fonts from '../../styles/fonts';
-import Button from '../../components/button/Button';
+import colors from '../styles/colors';
+import fonts from '../styles/fonts';
+import Button from '../components/Button';
 import { useNavigation } from '@react-navigation/core';
 
 export function Confirmation (){
     const navigation = useNavigation();
 
     function handleFinishRegisterButton() {
-        navigation.navigate('UserIdentification');   
+        navigation.navigate('PlantSelect');   
     }
 
     return (

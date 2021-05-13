@@ -3,9 +3,9 @@ import { useNavigation } from "@react-navigation/core";
 import { StyleSheet, View, Text, Image, TouchableOpacity, Dimensions } from "react-native";
 import { Feather } from "@expo/vector-icons";
 
-import LogoPng from '../../assets/Logo.png';
-import colors from "../../styles/colors";
-import fonts from "../../styles/fonts";
+import LogoPng from '../assets/Logo.png';
+import colors from "../styles/colors";
+import fonts from "../styles/fonts";
 
 export function Welcome() {
     const navigation = useNavigation();
